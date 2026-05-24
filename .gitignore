@@ -1,0 +1,36 @@
+﻿# VS Build outputs
+Debug/
+Release/
+x64/
+Win32/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.log
+
+# VS user files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CMake build directories
+build/
+
+# Binaries / prebuilt libraries
+glfw-3.4.bin.WIN64/
+
+# Zip archives
+*.zip
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
