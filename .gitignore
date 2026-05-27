@@ -1,15 +1,8 @@
-﻿# VS Build outputs
+# ===== Local (VS/OpenGL project) =====
 Debug/
 Release/
 x64/
 Win32/
-*.obj
-*.exe
-*.pdb
-*.ilk
-*.lib
-*.exp
-*.log
 
 # VS user files
 .vs/
@@ -18,19 +11,76 @@ Win32/
 *.userosscache
 *.sln.docstates
 
-# CMake build directories
-build/
-
 # Binaries / prebuilt libraries
 glfw-3.4.bin.WIN64/
 
 # Zip archives
 *.zip
 
-# IDE
+# IDE temp
 .idea/
 *.swp
 *.swo
 *~
 .DS_Store
 Thumbs.db
+
+# ===== Remote (C/C++ standard) =====
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.out
+*.app
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# vcpkg
+vcpkg_installed/
+
+# test output & cache
+Testing/
+.cache/
+
+# Prerequisites
+*.d
