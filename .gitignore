@@ -84,3 +84,11 @@ Testing/
 
 # Prerequisites
 *.d
+# Build directories
+build/
+Build/
+build-*/
+
+# New OpenGLFW2 project artifacts
+OpenGLFW2/x64/
+OpenGLFW2/.vs/
